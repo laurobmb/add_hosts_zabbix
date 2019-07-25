@@ -1,0 +1,7 @@
+{
+	"conexao": {
+		"url": "http://10.1.1.1/zabbix",
+		"user": "usuario",	
+		"password": "senha"
+	}
+}
