@@ -26,7 +26,7 @@ for i in hosts_zabbix:
 	hostname = i['name']
 	interface = conexao.hostinterface.get({ "output": "extend", "hostids": hostid })
 	ipaddress = interface[0]['ip']
-	output=hostname+";"+ipaddress
+	output=hostname+","+ipaddress
 	print(output)
 	f.write(output)
 	f.write('\n')
