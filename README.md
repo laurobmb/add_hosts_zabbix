@@ -1,2 +1,2 @@
-# add_hosts_zabbix
-Adicionar e ler hosts do zabbix usando python 
+# Script Zabbix
+Adicionar ou ler hosts do servidor zabbix usando python
