@@ -10,7 +10,7 @@ zapi = ZabbixAPI(zabbix_server)
 zapi.login(user=usuario, password=senha)
 
 arq = csv.reader(open('hosts.csv'))
-f = csv.reader(open('hosts.csv'), delimiter=';')
+f = csv.reader(open('hosts.csv'), delimiter=',')
 
 for [hostname,ip] in f:
     try:
